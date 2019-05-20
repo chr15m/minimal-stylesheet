@@ -1,0 +1,148 @@
+/* Hacked from:
+ * https://html5up.net/uploads/demos/editorial/elements.html */
+
+input[type="submit"], input[type="reset"], input[type="button"], button, .button,
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+  border-radius: 0.375em;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  min-height: 3.5em;
+  line-height: 3.5em;
+  padding: 0 2.25em;
+  text-decoration: none;
+  margin: 0.25em 0.25em;
+  font-size: 0.8em;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+  box-shadow: inset 0 0 0 2px #f56a6a;
+  color: #f56a6a;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+::placeholder {
+  color: #bbb !important;
+  opacity: 1.0;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+  background-color: #eee;
+  color: #555;
+  outline: none;
+  padding: 0 0.75em;
+  font-weight: bold;
+}
+
+textarea {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.primary {
+  background-color: #f56a6a;
+  color: #fff;
+  box-shadow: none;
+}
+
+/*** Radio & Checkbox ***/
+
+input[type="checkbox"], input[type="radio"] {
+  cursor: pointer;
+  display: block;
+  float: left;
+  margin: -2em;
+  width: 1em;
+  appearance: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+input[type="checkbox"] + label::before, input[type="radio"] + label::before {
+  background-color: #f56a6a;
+  color: #f56a6a;
+  cursor: pointer;
+  border-radius: 0.25em;
+  content: '_';
+  display: inline-block;
+  height: 1.5em;
+  line-height: 1.58125em;
+  text-align: center;
+  width: 1.5em;
+  margin-right: 0.5em;
+  font-weight: bold;
+  font-size: 1.5em;
+  outline: 0;
+  margin-top: 0.25em;
+}
+
+input[type="radio"] + label::before {
+  border-radius: 100%;
+}
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+  cursor: pointer;
+  margin-right: 1em;
+  white-space: nowrap;
+}
+
+input[type="checkbox"]:checked + label::before, input[type="radio"]:checked + label::before {
+  color: #fff;
+  content: '\2714';
+}
+
+/*** Select ***/
+
+select {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23bbbbbb' /%3E%3C/svg%3E");
+  -webkit-appearance: none;
+  appearance: none
+  background-size: 1.25rem;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1rem) center;
+  height: 3rem;
+  padding-right: 3rem;
+  text-overflow: ellipsis;
+  outline: 0;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+/*** Layout ***/
+
+.fit {
+  width: calc(100% - 0.5em);
+}
+
+.half {
+  width: calc(50% - 0.7em);
+}
+
+.mid {
+  text-align: center;
+}
+
+.double {
+  font-size: 1em;
+}
+
+.icon {
+  width: 3.5em;
+  padding: 0px;
+}
+
+.icon > * {
+  font-size: 2em;
+  line-height: 1em;
+  vertical-align: middle;
+}
+
