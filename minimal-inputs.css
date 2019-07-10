@@ -26,6 +26,10 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   font-size: 0.8em;
 }
 
+:disabled {
+  opacity: 0.5;
+}
+
 ::placeholder {
   color: #bbb !important;
   opacity: 1.0;
