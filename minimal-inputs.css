@@ -119,7 +119,7 @@ select::-ms-expand {
 
 /*** Layout ***/
 
-.fit {
+.fit,.full {
   width: calc(100% - 0.5em);
 }
 
