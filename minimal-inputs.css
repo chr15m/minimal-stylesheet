@@ -1,7 +1,7 @@
 /* Hacked from:
  * https://html5up.net/uploads/demos/editorial/elements.html */
 
-input[type="submit"], input[type="reset"], input[type="button"], button, .button,
+input, input[type="submit"], input[type="reset"], input[type="button"], button, .button,
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
   border-radius: 0.375em;
   background-color: transparent;
@@ -31,7 +31,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   opacity: 1.0;
 }
 
-input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+input, input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
   background-color: #eee;
   color: #555;
   outline: none;
