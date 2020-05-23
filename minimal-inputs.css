@@ -1,7 +1,7 @@
 /* Hacked from:
  * https://html5up.net/uploads/demos/editorial/elements.html */
 
-input[type="submit"], input[type="reset"], input[type="button"], button, .button,
+input, input[type="submit"], input[type="reset"], input[type="button"], button, .button,
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
   border-radius: 0.375em;
   background-color: transparent;
@@ -26,12 +26,16 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   font-size: 0.8em;
 }
 
+:disabled {
+  opacity: 0.5;
+}
+
 ::placeholder {
   color: #bbb !important;
   opacity: 1.0;
 }
 
-input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+input, input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
   background-color: #eee;
   color: #555;
   outline: none;
@@ -119,7 +123,7 @@ select::-ms-expand {
 
 /*** Layout ***/
 
-.fit {
+.fit,.full {
   width: calc(100% - 0.5em);
 }
 
