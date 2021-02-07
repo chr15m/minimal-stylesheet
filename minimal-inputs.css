@@ -150,3 +150,21 @@ select::-ms-expand {
   vertical-align: middle;
 }
 
+/*** Spinner ***/
+
+.spinner {
+  border-top: 4px solid silver;
+  border-bottom: 4px solid silver;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  margin: auto;
+  animation: spin 0.333s linear infinite;
+}
+
+@keyframes spin {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
