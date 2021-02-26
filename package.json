@@ -1,0 +1,20 @@
+{
+  "name": "minimal-stylesheet",
+  "description": "A minimal stylesheet for when you just need your web app MVP or prototype to look ok.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chr15m/minimal-stylesheet.git"
+  },
+  "keywords": [
+    "css",
+    "stylesheet",
+    "minimal",
+    "mvp"
+  ],
+  "author": "Chris McCormick <chris@mccormick.cx>",
+  "bugs": {
+    "url": "https://github.com/chr15m/minimal-stylesheet/issues"
+  },
+  "homepage": "https://github.com/chr15m/minimal-stylesheet#readme"
+}

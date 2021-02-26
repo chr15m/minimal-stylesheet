@@ -12,6 +12,8 @@ There's a `< 1k` stylesheet for basic HTML styles and a separate `3.2k` one for 
 <link rel="stylesheet" type="text/css" href="//chr15m.github.io/minimal-stylesheet/minimal-inputs.css"/>
 ```
 
+Use `npm i minimal-stylesheet` to get these on your local. You can then find the files in `node_modules/minimal-stylesheet/minimal*.css`.
+
 ### Tips
 
  * Set the `font-size` on `body` to scale up or down the whole interface.
