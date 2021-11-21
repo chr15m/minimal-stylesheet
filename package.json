@@ -1,7 +1,7 @@
 {
   "name": "minimal-stylesheet",
   "description": "A minimal stylesheet for when you just need your web app MVP or prototype to look ok.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chr15m/minimal-stylesheet.git"
