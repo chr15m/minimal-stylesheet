@@ -17,8 +17,8 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
 }
 
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
-  box-shadow: inset 0 0 0 2px #f56a6a;
-  color: #f56a6a;
+  box-shadow: inset 0 0 0 2px #6AACF5;
+  color: #6AACF5;
   font-weight: 700;
   letter-spacing: 0.075em;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ textarea {
 }
 
 .primary {
-  background-color: #f56a6a;
+  background-color: #6AACF5;
   color: #fff;
   box-shadow: none;
 }
@@ -70,8 +70,8 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 input[type="checkbox"] + label::before, input[type="radio"] + label::before {
-  background-color: #f56a6a;
-  color: #f56a6a;
+  background-color: #6AACF5;
+  color: #6AACF5;
   cursor: pointer;
   border-radius: 0.25em;
   content: '_';
