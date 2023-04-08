@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/chr15m/minimal-stylesheet/issues"
   },
-  "homepage": "https://github.com/chr15m/minimal-stylesheet#readme"
+  "homepage": "https://github.com/chr15m/minimal-stylesheet#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.1"
+  },
+  "scripts": {
+    "watch": "browser-sync start --server . --files . --no-open --port 8000"
+  }
 }
